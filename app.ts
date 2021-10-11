@@ -22,4 +22,13 @@ if(bool){
 let list: number [] = [1,2,3];
 let list2: Array<number> = [1,2,3];
 
-let tuple: [string, number, ]
+let tuple: [string, number];
+tuple = ["william", 22];
+//tuple = ["22", william];
+tuple = ["william", 22];
+console.log(tuple[0].toLowerCase())
+//console.log(tuple[1]);
+enum Day{Monday, Tuesday, Wesdnesday}
+let day: Day = Day.Monday;
+console.log(`day: ${Day}| ${Day.Tuesday}| ${Day.Wesdnesday}`);
+console.log(`day: ${Day[0]}| ${Day[1]}| ${Day[2]}`);
