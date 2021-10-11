@@ -11,3 +11,4 @@ var str3: string = `${str2} to william`;
 Console.log(str3);
 
 Function func() { }
+var str4: string = 'I love you';
